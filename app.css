@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:ital,wght@0,400;1,100&family=Roboto&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  background: linear-gradient(#1c1917 50%, #e50914 50%);
+}
+.Container {
+  width: 90vw;
+  background-color: #1e293b;
+  max-width: 37.5em;
+  padding: 3em 1.8em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 16px;
+  border-radius: 0.6em;
+  box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+.ContainerExpand {
+  width: 90vw;
+  background-color: #1e293b;
+  max-width: 37.5em;
+  padding: 3em 1.8em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 16px;
+  border-radius: 0.6em;
+  box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+  height: 15cm;
+}
+.Container p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.Search-Container {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.2em;
+}
+.Search-Container input,
+.Search-Container button {
+  font-size: 0.9em;
+  outline: none;
+  border-radius: 0.3em;
+}
+.Search-Container input {
+  padding: 0.7em;
+  border: 1px solid #a0a0a0;
+  color: #fff;
+  background: local;
+}
+.Search-Container button {
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 540;
+}
+.MoviesInfo {
+  display: flex;
+}
+.MoviesInfo img {
+  width: 10.2em;
+  border-radius: 5px;
+  z-index: 50;
+}
+.MovieDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -2cm;
+  flex-direction: column;
+}
+
+.MovieDetails h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.MovieDetails h2 {
+  margin: 1rem 0 0 0;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: white;
+}
+
+.MovieDetails h3 {
+  margin: 1rem 8px 0 8px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: white;
+  padding-left: 1ch;
+}
+
+.MovieDetails .GenresContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  width: max-content;
+  grid-gap: 2ch;
+}
+
+.MovieDetails .Genre {
+  margin: 0 0.5rem;
+  padding: 0.3em 2ch;
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  background: local;
+  border: 1px solid#576379;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.PlotCast {
+  letter-spacing: normal;
+  position: absolute;
+  margin-top: 8cm;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Plot {
+  font-weight: 560;
+  font-size: large;
+  gap: 1ch;
+}
+.Actors {
+  font-weight: 560;
+  font-size: large;
+  gap: 1ch;
+}
